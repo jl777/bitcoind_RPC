@@ -104,6 +104,13 @@ void *curl_loop(void *arg)
 // if ( 1 && laststart+pause > milliseconds() ) // horrible hack for bitcoind "Couldn't connect to server"
 //  usleep(pause*1000);
 // errors happen even with just one thread, but with more than one thread, the errors happen a lot
+//
+// you need to have NXT core installed
+// wget https://bitbucket.org/JeanLucPicard/nxt/downloads/nxt-client-1.1.6.zip
+// unzip nxt-client-1.1.6.zip
+// cd nxt
+// ./run.sh &
+
 
 int main(int argc, const char * argv[])
 {
